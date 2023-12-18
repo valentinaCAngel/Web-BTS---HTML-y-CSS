@@ -1,0 +1,316 @@
+
+#titulo{
+    text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(178, 102, 255);
+    
+}
+
+/*formarto de los cuaadros*/
+body{
+    font: 25px Helvetica;
+    background: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+a.sin-subrayado {
+  text-decoration: none;
+}
+
+#main{
+    position: relative;
+    min-height: 800px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    overflow: hidden;
+
+}
+.subtitulo{
+   text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(111, 0, 255);
+    font-size: 35px;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.subtitle{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(127, 0, 255);
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lista{
+    color:  rgb(253, 171, 246);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.parrafo{
+    color:  rgb(178, 102, 255);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.parrafo2{
+    float: left;
+    color:  rgb(178, 102, 255);
+    margin-right: 152px;
+    font-size: 25px;
+    margin-top: 2px;
+    
+}
+
+.titulo-pie {
+    float: center;
+    color: rgb(178, 102, 255);
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.papie{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#main article{
+    margin: 4px;
+    padding: 5px;
+    border: 2px solid rgb(141, 55, 240);
+    border-radius: 7pt;
+    background: rgb(0,0,0);
+    flex: 3 1 60%;
+    order: 2;
+    position: relative;
+    
+}
+
+#main nav {
+    font: 27px Arial;
+    margin: 4px;
+    padding: 5px;
+    border: 2px solid rgb(204, 128, 255);
+    border-radius: 7pt;
+    background: rgb(0,0,0);
+    flex: 1 6 20%;
+    order: 1;
+  
+}
+
+#main aside{
+    font: 25px Arial;
+    margin: 4px;
+    padding: 5px;
+    border: 2px solid rgb(56, 42, 255);
+    border-radius: 7pt;
+    background: rgb(0,0,0);
+    flex: 1 6 20%;
+    order: 2;
+}
+#foto img {
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: -7px;
+    max-width: 90%; 
+    height: auto; 
+    width: 300px;
+     border-radius: 10px;
+     float: left;
+    
+ }
+img.izquierda{  
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 15px;
+     margin-right: 10px;
+    margin-bottom: 15px;
+    max-width: 50%;
+     height: auto;
+}
+img.derecha{
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+     border-radius: 15px;
+     margin-right: 1px;
+      margin-bottom: 15px;
+    max-width: 50%;
+    height: auto;
+}
+
+.izquierda{
+    float: left;
+    margin-right: 300px;
+}
+.derecha{
+   
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+header, footer{
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 100px;
+    border: 2px solid plum;
+    border-radius: 7pt;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+    margin-bottom: 1px;
+    color: whi;
+}
+.redes-sociales {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.redes-sociales img {
+    width: 25px; 
+    height: 25px; 
+    margin-top: px;
+    margin-bottom: 0px; 
+    margin-right: 0px;
+    margin-left: 0px; 
+ }
+.youtube {
+    margin-right: 0px;
+    width: 150x;
+    height: 90px;
+    border-radius: 5px; 
+    margin-right: 5px; 
+ }
+.twitter {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px; 
+    margin-right: 5px; 
+ }
+.facebook {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px; 
+    margin-right: 5px; 
+ }
+
+.bighit img {
+    margin-top: px;
+    margin-bottom: 0px; 
+    margin-right: 0px;
+    margin-left: 0px; 
+}
+
+
+div#parrafo{
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+
+ }
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+/*menu*/
+#navega{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+
+}
+
+.menu ul{
+    list-style-type: none;
+     border-radius: 15px;
+    
+    
+}
+
+.menu >li{
+    position: relative;
+    display: inline-block;
+    color: mediumpurple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+     border-radius: 15px;
+
+}
+
+.menu >li a{
+    color: rgb(69, 69, 243);
+    display: block;
+    padding: 15px 20px;
+     border-radius: 15px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu li a:hover{
+    background-color: mediumpurple;
+    border: 5px solid mediumpurple;
+    color: rgb(231, 234, 43) ;
+     border-radius: 15px;
+ 
+}
+
+.submenu{
+    width: 300px;
+    display: none;
+    position: absolute;
+    background-color: rgb(191, 142, 255); 
+    text-align: left;
+    top: 100%;
+    left: 0;
+    transition: all 0.3s;
+    z-index: 100;
+    text-align: center;
+    border-radius: 15px;
+    
+}   
+
+.submenu li a {
+    display: block;
+      color: rgb( 135, 84, 204  );
+    text-decoration: none;
+     border-radius: 15px;
+    
+
+}
+
+.menu li:hover .submenu {
+    display: block;
+     border-radius: 15px;
+}
+
+/*video*/
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 17px;
+}
+
